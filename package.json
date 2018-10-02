@@ -1,0 +1,10 @@
+{
+  "name": "@enkidevs/enki-scripts",
+  "version": "1.0.0",
+  "description": "Enki Database Bash Scripts",
+  "author": "Mihai Bercu <mihai@enki.com>",
+  "bin": {
+    "db-test": "./check-test-db.sh",
+    "check-branch": "./check-branch.sh"
+  }
+}
