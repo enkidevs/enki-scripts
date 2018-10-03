@@ -9,10 +9,10 @@ collectionsCount=0
 for col in $collections; do
     prefix="${col:0:6}"
     collectionsCount=$((collectionsCount + 1))
-    if [ $prefix != "system" ]; then
+    if [ "$prefix" != "system" ]; then
         # get documents count
-        query="db.getCollection('$col').count()"
-        count=`mongo $MONGODB_URL --quiet --eval $query | tr -d '\r'`
+        query="db.getCollection('${col}').count()"
+        count=`mongo ${MONGODB_URL} --quiet --eval ${query} | tr -d '\r'`
         # accumulate all non-empty ones
         if [ "$count" != "0" ]; then
             nonzeroCollections+="$col: $count\n"

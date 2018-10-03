@@ -1,6 +1,6 @@
 {
   "name": "@enkidevs/enki-scripts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enki Database Bash Scripts",
   "author": "Mihai Bercu <mihai@enki.com>",
   "bin": {
