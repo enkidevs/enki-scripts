@@ -1,6 +1,6 @@
 {
   "name": "@enkidevs/assert-mongodb-empty",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Checks if there are any leftovers documents in a Mongo database.",
   "author": "Mihai Bercu <mihai@enki.com>",
   "bin": {

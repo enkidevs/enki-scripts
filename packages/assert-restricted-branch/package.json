@@ -1,6 +1,6 @@
 {
   "name": "@enkidevs/assert-restricted-branch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Aborts commit if the branch is either develop or master.",
   "author": "Mihai Bercu <mihai@enki.com>",
   "bin": {
