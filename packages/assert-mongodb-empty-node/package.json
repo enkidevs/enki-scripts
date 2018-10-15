@@ -1,0 +1,14 @@
+{
+  "name": "@enkidevs/assert-mongodb-empty-node",
+  "version": "1.0.0",
+  "description": "Node script used to check if mongodb collections are empty",
+  "main": "index.js",
+  "author": "mihaiberq",
+  "license": "ISC",
+  "bin": {
+    "enkidevs-assert-mongodb-empty-node": "node index.js"
+  },
+  "dependencies": {
+    "mongodb": "^3.1.8"
+  }
+}
