@@ -25,10 +25,12 @@ async function verifyDb() {
   if (success === null) {
     console.log(`Test fails for:`);
     err.forEach(collection => console.log(collection));
-  } else {
-    console.log(success);
+    client.close();
+    process.exit(1);
   }
-  client.close();
+
+  console.log(success);
+  process.exit(0);
 }
 
 function verifyCollections(collectionCounts) {
