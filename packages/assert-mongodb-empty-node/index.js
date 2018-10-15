@@ -47,7 +47,7 @@ function verifyCollections(collectionCounts) {
 
   if (success !== null) {
     success = `Verified ${
-      collectionsCounts.length
+      collectionCounts.length
     } collections. None had more than 0 records.`;
   }
   return [err, success];
