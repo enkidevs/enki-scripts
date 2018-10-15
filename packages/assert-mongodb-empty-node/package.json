@@ -6,9 +6,10 @@
   "author": "mihaiberq",
   "license": "ISC",
   "bin": {
-    "enkidevs-assert-mongodb-empty-node": "node index.js"
+    "enkidevs-assert-mongodb-empty-node": "./index.js"
   },
   "dependencies": {
     "mongodb": "^3.1.8"
-  }
+  },
+  "gitHead": "78522d1538a246e462ce08ae58ee34a51b07a191"
 }

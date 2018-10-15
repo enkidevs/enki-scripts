@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const MongoClient = require("mongodb").MongoClient;
 
 const mongoURL = process.env.MONGODB_URL;
