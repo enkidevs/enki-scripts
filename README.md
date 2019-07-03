@@ -1,3 +1,3 @@
 # Enki Scripts
 
-List of bash scripts used by @enkidevs.
+List of scripts used by @enkidevs.
